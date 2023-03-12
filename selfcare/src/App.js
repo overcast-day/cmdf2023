@@ -8,6 +8,7 @@ import SchedulePage from './pages/SchedulePage'
 import BreathingActivity from './pages/BreathingActivity'
 import PageNotFound from './pages/404'
 
+import Navigation from './components/headers'
 
 function App() {
   return (
