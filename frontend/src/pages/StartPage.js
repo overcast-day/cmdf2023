@@ -12,7 +12,11 @@ export default function StartPage() {
             <Button href="/breathing_activity">Breathing Activity</Button>
             <br />
             <h4>How many hours are you working for?</h4>
+            <input name="numHours" />
             <h4>How often do you want a break?</h4>
+            <input name="numBreaks" /> <br></br>
+            <br></br>
+            <input type="submit" value="Submit" name="configSubmit"></input>
             <Button href="/schedule">schedule</Button>
             <br />
             <Link to="/404">404</Link>
