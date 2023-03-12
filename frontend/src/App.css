@@ -76,12 +76,14 @@ html[data-theme=dark] {
 
 /*Animation*/
 .logo-swirl {
-  height: 70%;
+  height: 10%;
+  width: 10%;
+  size: width;
   animation: breathing-logo-spin 12s infinite linear;
-  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top:10%;
   padding-right: 5%;
   background: transparent;
   border: transparent;
