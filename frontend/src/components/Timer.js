@@ -4,8 +4,8 @@ import '../App.css';
 import { Link, useHistory } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 
-function Timer(prop){
-    const [timeLeft, setTimeLeft] = useState(prop.h*60*60+prop.m*60+prop.s)
+function Timer(props){
+    const [timeLeft, setTimeLeft] = useState(props.h*60*60+props.m*60+props.s)
 
     const getTime = () => {
         const sec = Math.floor((timeLeft) % 60);
@@ -24,8 +24,11 @@ function Timer(prop){
                 (min > 9 ? min : '0' + min) + ':'
                 + (sec > 9 ? sec : '0' + sec)
             )
-              }
-              return "00:00:00"
+        }
+        //window.location.href="/breathing_activity";
+        //window.open("/breathing_activity")
+        //window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        return "00:00:00"
     }
 
     useEffect(() => {
