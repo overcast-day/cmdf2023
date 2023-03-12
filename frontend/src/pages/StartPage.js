@@ -56,8 +56,8 @@ export default function StartPage() {
             <h4>How often do you want a break?</h4>
             <input name="numBreaks" /> <br></br>
             <br></br>
-            <input type="submit" value="Submit" name="configSubmit"></input>
-            <Button href="/schedule">schedule</Button>
+            {/* <input type="submit" value="Submit" name="configSubmit"></input>
+            <Button href="/schedule">schedule</Button> */}
             <button 
                 class="confirm-button" 
                 onClick={handleClick}>
@@ -65,7 +65,7 @@ export default function StartPage() {
             </button>
             <br />
             <p></p>
-            <Link to="/404">404</Link>
+            {/* <Link to="/404">404</Link> */}
         </div>
         </div>
     );
