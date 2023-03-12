@@ -46,12 +46,16 @@ function Timer(props){
         }
     });
 
+    let count = 0; //used to test very end of session
     const ripTimer = () => {
-        if(props.type=="activity"){
+        if(props.type==="activity"){
             window.location.href=props.link;
+        }else if(count>=2){
+            window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         }else{
             window.open(props.link);
             setTimeLeft(props.h*60*60+(props.m+5)*60+props.s);
+            count++;
         }
     }
 

@@ -37,7 +37,7 @@ export default function Breathe() {
                 h = {0}
                 m = {0}
                 s = {30}
-                link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                link = "/dashboard"
                 type = "activity"
             />
             <h2>remaining </h2>
