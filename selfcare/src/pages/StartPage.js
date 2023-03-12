@@ -7,7 +7,11 @@ export default function Home() {
     return (
         <div className="Start">
         <div>
-            <p>Hi</p>
+            <h1>Let's start your work day!</h1>
+            <Link to="/404">404</Link>
+            <p></p>
+            <Button href="/schedule">schedule</Button>
+            <p></p>
             <Link to="/404">404</Link>
         </div>
         </div>
