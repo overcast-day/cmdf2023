@@ -44,8 +44,8 @@ body {
 
 html {
   --theme-color-a: #84a59d;
-  --theme-color-b: #e0e6eb;
-  --theme-color-c: #e0e6eb;
+  --theme-color-b: #f7ede2;
+  --theme-color-c: #4a5759;
   --theme-color-d: #e0e6eb;
   --theme-color-e: #e0e6eb;
 }
@@ -56,4 +56,16 @@ html[data-theme=dark] {
   --theme-color-c: #e0e6eb;
   --theme-color-d: #e0e6eb;
   --theme-color-e: #e0e6eb;
+}
+
+/*BUTTONS*/
+.confirm-button {
+  border-radius: 10px;
+  background: var(--theme-color-c);
+  color: var(--theme-color-b);
+  padding: 5px 50px 5px 50px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  border: none;
 }
