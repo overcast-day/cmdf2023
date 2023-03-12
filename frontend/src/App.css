@@ -1,5 +1,5 @@
 body {
-  background-color: var(--theme-color-b);
+  background-color: var(--theme-color-a);
   font: Inter;
   width: 100%;
   height:100%;
@@ -26,7 +26,7 @@ html[data-theme=dark] {
 .confirm-button {
   border-radius: 10px;
   background: var(--theme-color-c);
-  color: var(--theme-color-a);
+  color: var(--theme-color-e);
   padding: 5px 50px 5px 50px;
   font-size: 20px;
   font-weight: 500;
@@ -40,7 +40,7 @@ html[data-theme=dark] {
   justify-content: center;
   text-align: center;
   border-radius: 10px;
-  background: var(--theme-color-a);
+  background: var(--theme-color-b);
   margin: 15% 15% 15% 15%;
   padding: 5% 5% 5% 5%;
   vertical-align: center;
@@ -48,7 +48,7 @@ html[data-theme=dark] {
 
 .whole-page{
   border-radius: 10px;
-  background: var(--theme-color-a);
+  background: var(--theme-color-b);
   padding: 5px 5px 20px 5px;
 }
 #top-section{
@@ -66,6 +66,12 @@ html[data-theme=dark] {
   justify-content: center;
   align-items: center;
   overflow:auto;
+}
+
+.Schedule{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /*Animation*/
