@@ -69,30 +69,25 @@ html[data-theme=dark] {
 }
 
 /*Animation*/
-.breathing-logo {
-  height: 40vmin;
-  position: absolute;
-  transform: translate(-505, -50%);
-  width: 40vmin;
-  background: var(--theme-color-a);
-  border: 2px solid var(--theme-color-e);
+.logo-swirl {
+  height: 70%;
+  animation: breathing-logo-spin 12s infinite linear;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5%;
+  background: transparent;
+  border: transparent;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .breathing-logo {
-    animation: infinite 20s linear;
-  }
-}
-
-@keyframes animate {
+@keyframes breathing-logo-spin {
   from {
-      transform: scale(2.0);
       transform: rotate(0deg);
   }
 
   to {
-      transform: scale(0.7);
       transform: rotate(360deg);
   }
 }
