@@ -33,6 +33,23 @@ export default function Breathe() {
                     Start
             </button></div>
         </div>
+        <div id = "bottom-section">
+            <div class="whole-page">
+            <h2> 1,2,3...in...1,2,3....out. Take this time to be in the moment</h2>
+            <Timer className="small-timer"
+                h = {1}
+                m = {0}
+                s = {30}
+                link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //"/dashboard"
+                type = "activity"
+            />
+            <h2>remaining </h2>
+            <button 
+                class="confirm-button" 
+                onClick={handleClick}>
+                Return to dashboard
+            </button>
+        </div>
         <svg className="logo-swirl" width="618" height="600" viewBox="0 0 618 600" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <title>Interlaced pentagram-pentagon flower</title>
         <g transform="translate(-2,590.5) scale(0.273,-0.273)">
@@ -535,23 +552,7 @@ export default function Breathe() {
         C718.543,1118.4,718.009,1121.73,718.009,1124.96Z"/>
         </g>
         </svg>
-        <div id = "bottom-section">
-            <div class="whole-page">
-            <h2> 1,2,3...in...1,2,3....out. Take this time to be in the moment</h2>
-            <Timer className="small-timer"
-                h = {0}
-                m = {0}
-                s = {30}
-                link = "/dashboard"
-                type = "activity"
-            />
-            <h2>remaining </h2>
-            <button 
-                class="confirm-button" 
-                onClick={handleClick}>
-                Return to dashboard
-            </button>
-        </div></div>
+        </div>
         </div>
     );
 }

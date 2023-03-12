@@ -19,19 +19,11 @@ export default function SchedulePage() {
                 onClick={handleClick}>
                     Confirm
             </button>
+            <p></p>
             <br />
-            <br>
-            </br>
-            <button 
-                class="back-button" 
-                onClick={handleClick}>
-                    Back to Homepage
-            </button>
-            {/* <a href ="/">
+            <a href ="/">
                 <Button name= "Home Button">Back to Home Page</Button>
-            </a> */}
-            <br>
-            </br>
+            </a>
         </div>
         </div>
     );
