@@ -10,7 +10,7 @@ function Timer(prop){
     const getTime = () => {
         const sec = Math.floor((timeLeft) % 60);
         const min = Math.floor((timeLeft / 60) % 60);
-        const hour = Math.floor((timeLeft / (60 * 60)) % 24);
+        const hour = Math.floor((timeLeft /(60 * 60)) % 24);
         return {
             hour, min, sec
         };
@@ -18,14 +18,14 @@ function Timer(prop){
 
     const startTimer = () => {
         let { hour, min, sec } = getTime();
-        if (timeLeft > 0) {
+        if (timeLeft >= 0) {
             return(
                 (hour > 9 ? hour : '0' + hour) + ':' +
                 (min > 9 ? min : '0' + min) + ':'
                 + (sec > 9 ? sec : '0' + sec)
             )
               }
-              return ""
+              return "00:00:00"
     }
 
     useEffect(() => {

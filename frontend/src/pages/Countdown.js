@@ -16,7 +16,7 @@ export default function Countdown() {
         <div>
             <h1>Come back in</h1>
             <Timer 
-                h = {1}
+                h = {0}
                 m = {0}
                 s = {15}
             />

@@ -16,9 +16,9 @@ export default function Dashboard() {
         <div>
             <h1>Come back in</h1>
             <Timer 
-                h = {1}
+                h = {0}
                 m = {0}
-                s = {15}
+                s = {5}
             />
             <button 
                 class="confirm-button" 
