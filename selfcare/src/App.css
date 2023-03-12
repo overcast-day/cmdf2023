@@ -59,7 +59,7 @@ html[data-theme=dark] {
 }
 
 /*BUTTONS*/
-.confirm-button {
+.confirm-button, Button {
   border-radius: 10px;
   background: var(--theme-color-c);
   color: var(--theme-color-b);
@@ -68,4 +68,8 @@ html[data-theme=dark] {
   font-weight: 500;
   transition: 0.3s;
   border: none;
+}
+
+.Home Button{
+  align-items: bottom;
 }
