@@ -25,23 +25,31 @@ function Timer(props){
                 + (sec > 9 ? sec : '0' + sec)
             )
         }
-        window.location.href=props.link;
-        //window.open("/breathing_activity")
+        //window.location.href=props.link;
+        //window.open(props.link);
         return "00:00:00"
     }
 
     useEffect(() => {
+        if (timeLeft >=0) {
         const interval = setInterval(() => 
         {
             setTimeLeft((timeLeft) => timeLeft - 1);
             if (timeLeft === 0) {
               clearInterval(interval);
+              ripTimer();
             }
         }
         , 1000);
     
         return () => clearInterval(interval);
-    }, []);
+        }
+    });
+
+    const ripTimer = () => {
+        window.location.href=props.link;
+        //window.open(props.link);
+    }
 
     return (
     <div className="timer">
