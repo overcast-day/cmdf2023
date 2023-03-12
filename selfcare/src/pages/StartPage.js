@@ -9,6 +9,5 @@ export default function Home() {
             <p>Hi</p>
         </div>
         </div>
-
     );
 }

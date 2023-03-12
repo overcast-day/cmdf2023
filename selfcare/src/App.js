@@ -8,11 +8,12 @@ import SchedulePage from './pages/SchedulePage'
 import BreathingActivity from './pages/BreathingActivity'
 import PageNotFound from './pages/404'
 
-import Navigation from './components/headers'
+import Navbar from './components/header/header';
 
 function App() {
   return (
     <Routes>
+      <Navbar />
       <Route path="/" element={<StartPage/>}/>
       <Route path="/schedule" element={<SchedulePage/>}/>
       <Route path="/breathing_activity" element={<BreathingActivity/>}/>
