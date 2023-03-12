@@ -12,7 +12,7 @@ import PageNotFound from './pages/404'
 function App() {
   return (
     <Routes>
-      <Route path="/start" element={<StartPage/>}/>
+      <Route path="/" element={<StartPage/>}/>
       <Route path="/schedule" element={<SchedulePage/>}/>
       <Route path="/breathing_activity" element={<BreathingActivity/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
