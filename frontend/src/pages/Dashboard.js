@@ -18,7 +18,8 @@ export default function Dashboard() {
             <Timer 
                 h = {0}
                 m = {0}
-                s = {5}
+                s = {1}
+                link = "/breathing_activity"
             />
             <button 
                 class="confirm-button" 

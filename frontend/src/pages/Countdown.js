@@ -19,6 +19,7 @@ export default function Countdown() {
                 h = {0}
                 m = {0}
                 s = {15}
+                link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             />
             <h1>to complete your next activity!</h1>
             <button 

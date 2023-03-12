@@ -25,9 +25,8 @@ function Timer(props){
                 + (sec > 9 ? sec : '0' + sec)
             )
         }
-        //window.location.href="/breathing_activity";
+        window.location.href=props.link;
         //window.open("/breathing_activity")
-        //window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         return "00:00:00"
     }
 
