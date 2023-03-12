@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function SchedulePage() {
     const handleClick = (e) => {
-        window.open("/dashboard");
+        window.location.href="/dashboard";
         e.preventDefault();
     };
 

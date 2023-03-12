@@ -17,7 +17,7 @@ export default function Dashboard() {
             <h1>Come back in</h1>
             <Timer 
                 h = {0}
-                m = {5}
+                m = {0}
                 s = {10}
                 link = "/breathing_activity"
             />
