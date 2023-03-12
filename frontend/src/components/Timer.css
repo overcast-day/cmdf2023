@@ -1,0 +1,6 @@
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 600px;
+}

@@ -8,10 +8,13 @@ export default function StartPage() {
         <div className="Start">
         <div>
             <h1>Let's start your work day!</h1>
-            <Link to="/404">404</Link>
-            <p></p>
+            <h4>Select the activities you want to include:</h4>
+            <Button href="/breathing_activity">Breathing Activity</Button>
+            <br />
+            <h4>How many hours are you working for?</h4>
+            <h4>How often do you want a break?</h4>
             <Button href="/schedule">schedule</Button>
-            <p></p>
+            <br />
             <Link to="/404">404</Link>
         </div>
         </div>
