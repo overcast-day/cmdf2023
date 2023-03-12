@@ -47,8 +47,12 @@ function Timer(props){
     });
 
     const ripTimer = () => {
-        window.location.href=props.link;
-        //window.open(props.link);
+        if(props.type=="activity"){
+            window.location.href=props.link;
+        }else{
+            window.open(props.link);
+            setTimeLeft(props.h*60*60+(props.m+5)*60+props.s);
+        }
     }
 
     return (
