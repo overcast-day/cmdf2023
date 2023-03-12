@@ -37,7 +37,7 @@ export default function Breathe() {
             <div class="whole-page">
             <h2> 1,2,3...in...1,2,3....out. Take this time to be in the moment</h2>
             <Timer className="small-timer"
-                h = {1}
+                h = {0}
                 m = {0}
                 s = {30}
                 link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //"/dashboard"
