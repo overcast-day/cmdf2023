@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from core.views import front
+from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('schedule/', front),
+    path('dashboard/', front),
+    path('breathing_activity/', front),
     path("", front, name="front"),
 ]
