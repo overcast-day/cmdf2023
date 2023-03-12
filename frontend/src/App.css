@@ -35,9 +35,20 @@ html[data-theme=dark] {
 }
 
 /*Pages*/
+.Dashboard{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  background: var(--theme-color-a);
+  margin: 15% 15% 15% 15%;
+  padding: 5% 5% 5% 5%;
+  vertical-align: center;
+}
+
 .whole-page{
   border-radius: 10px;
-  background: var(--theme-color-d);
+  background: var(--theme-color-a);
   padding: 5px 5px 20px 5px;
 }
 #top-section{
