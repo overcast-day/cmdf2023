@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: var(--theme-color-a);
+  font: Inter;
+}
+
+html {
+  --theme-color-a: #84a59d;
+  --theme-color-b: #e0e6eb;
+  --theme-color-c: #e0e6eb;
+  --theme-color-d: #e0e6eb;
+  --theme-color-e: #e0e6eb;
+}
+
+html[data-theme=dark] {
+  --theme-color-a: #5A4859;
+  --theme-color-b: #e0e6eb;
+  --theme-color-c: #e0e6eb;
+  --theme-color-d: #e0e6eb;
+  --theme-color-e: #e0e6eb;
+}
